@@ -2,22 +2,24 @@
  * kalmanFilter.h - Library for simple Kalman filter
  *
  * Created by Max Lunin http://max.lunin.info : <nut.code.monkey@gmail.com> on 27.09.13.
+ * as part of Arduino automatization described at http://exotic-garden-at-home.blogspot.com
  * Released into the public domain.
  */
 
-// Usage :
-//    kalmanFilter kalmanFilter; // create with default parameters
-//
-//    kalmanFilter.setState(startValue);
-//    kalmanFilter.setCovariance(0.1);
-//
-//    while (true)
-//    {
-//        double value = getValueFromSensor();
-//        kalmanFilter.correct(value);
-//        double correctedValue = kalmanFilter.getState();
-//    }
+/*
+    // Usage :
+    KalmanFilter kalmanFilter; // create with default parameters
 
+    kalmanFilter.setState(startValue);
+    kalmanFilter.setCovariance(0.1);
+
+    while (true)
+    {
+        double value = getValueFromSensor();
+        kalmanFilter.correct(value);
+        double correctedValue = kalmanFilter.getState();
+    }
+*/
 
 #ifndef Kalman_Kalman_h
 #define Kalman_Kalman_h

@@ -2,6 +2,7 @@
  * Kalman.cpp - Arduino Library for simple Kalman filter
  *
  * Created by Max Lunin http://max.lunin.info : <nut.code.monkey@gmail.com> on 27.09.13.
+  * as part of Arduino automatization described at http://exotic-garden-at-home.blogspot.com
  * Released into the public domain.
  */
 
