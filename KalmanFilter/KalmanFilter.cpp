@@ -9,6 +9,7 @@
 #include "KalmanFilter.h"
 
 KalmanFilter::KalmanFilter(double q, double r, double f, double h) {
+//  setFQHR(q, r, f, h);
     F = f;
     Q = q;
     H = h;
@@ -37,6 +38,29 @@ double KalmanFilter::getH() const {
 
 double KalmanFilter::getR() const {
     return R;
+}
+
+void KalmanFilter::setF(double f) {
+    F = f;
+}
+
+void KalmanFilter::setQ(double q) {
+    Q = q;
+}
+
+void KalmanFilter::setH(double h) {
+    H = h;
+}
+
+void KalmanFilter::setR(double r) {
+    R = r;
+}
+
+void KalmanFilter::setFQHR(double q, double r, double f, double h) {
+    F = f;
+    Q = q;
+    H = h;
+    R = r;
 }
 
 double KalmanFilter::getState() const {
