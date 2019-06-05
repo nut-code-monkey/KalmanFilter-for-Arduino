@@ -47,6 +47,11 @@ public:
     double getQ() const;
     double getH() const;
     double getR() const;
+    void setF(double);
+    void setQ(double);
+    void setH(double);
+    void setR(double);
+    void setFQHR(double, double, double, double);
     
 private:
     double x0; // predicted state
